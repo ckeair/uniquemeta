@@ -11,8 +11,7 @@ contract LirnOnboard is ERC1155, Ownable {
 
     
     string public name;
-    string public symbol;
-    string public LirnNFT =  'ipfs://QmPLT5TzcnDEML9jHfrcip7trFLokN7yAPGnpfBYxx3T6F/';  
+    string public symbol; 
     mapping (uint256 => string) private _uris;
     mapping(address => mapping (uint256 => uint256))  public supplyBalance;
 
